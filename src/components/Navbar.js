@@ -18,11 +18,9 @@ const Navbar = ({ links }) => {
                         </li>
                     ))}
                 </ul>
-                <form className="form-inline my-2 my-lg-0 ml-auto"> {/*content is defined as being displayed inline with some vertical space around it on small screens*/}
-                    <div className="input-group"> {/* wraps button and search bar into one group */}
-                        <input className="form-control" type="search" placeholder="Search" /> type="search" placeholder="Search"/> {/*placeholder provides text in the search bar */}
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> {/*outline-success makes the button green, my-2 my-sm-0 gives y-axis margins, and submit defines it as a submission button*/}
-                    </div>
+                <form className="form-inline my-2" style={{ marginRight: "10px" }}> {/* Add margin-right to the form */}
+                    <input className="form-control mr-sm-2" type="search" placeholder="Search" />
+                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
         </nav>
