@@ -38,6 +38,8 @@
 }
 
 .card {
+    flex: 0 0 auto; /*makes sure cards don't change size*/
+    width: 18rem; /* gives cards constant width */
     display: inline-block; /* makes cards line up beside one another */
     margin: 10px; /* adds space between cards */
 }
