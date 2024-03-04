@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+    display: inline-block; /* makes cards line up beside one another */
+    margin: 10px; /* adds space between cards */
+}
+
+.container {
+    justify-content: center; /* Center items horizontally */
+}
