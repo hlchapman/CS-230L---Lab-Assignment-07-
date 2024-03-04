@@ -36,15 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.card {
-    flex: 0 0 auto; /*makes sure cards don't change size*/
-    width: 18rem; /* gives cards constant width */
-    margin: 10px; /* adds space between cards */
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap; /*if not enough space, cards will go to next line*/
-    justify-content: center; /* Center items horizontally */
-}
